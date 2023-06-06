@@ -1,0 +1,20 @@
+git -version
+git init - инициализаци€
+git status - что думает git о текущей папке
+commit - фиксаци€/сохранение
+git add ... - добавление/сохранение файла
+git commit -m - добавл€ем комментарий
+git log - просмотр журнала событий
+git chekout ..commit.. - преход к какой либо версии
+git chekout master - возврат к актуальной версии
+git diff - отображает изменени€
+git branch - отображает ветки
+git branch -d <им€ ветки> - удаление ветки
+git branch <название новой ветки> - —оздать ветку
+git merge <название ветки> - сли€ние веток
+git checkout <им€ ветки> - переход в ветку с указанным именем
+git log --graph -  в св€зке с командой log позвол€ет отобразить коммиты в виде дерева
+git pull - подт€гивает инфу из удалЄнного репозитори€
+git push - отправл€ет в orig
+Fork-copy url-clone <url>-branch new (изменени€ только в новой ветке)-git checkout new-git add...-git commit ...-git push ...-Ќа GitHub 
+обновл€ем, переходим в Git Request, переходим в новую ветку и создаЄм PullRequest.
